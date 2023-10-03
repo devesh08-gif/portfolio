@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2b60e4d41.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ------------------------------home------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://pbs.twimg.com/profile_images/1404444187160834057/rmai7NDE_400x400.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi,I'm <span>Devesh</span> Bidkar<br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png.jpg">
+                    
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, vero repellat quam soluta labore dignissimos similique alias temporibus corrupti voluptas odio necessitatibus suscipit modi. Quas fugit perferendis ipsum, doloribus excepturi dignissimos. Molestiae optio corporis reiciendis! </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                            <li><span>Web Developer</span><br>Web Developement</li>
+                            <li><span>C++</span><br>C++ and Opps in it</li>
+                            <li><span>Basic Python</span><br>On going with Python</li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                            <li><span>Internpe</span><br>Worked as a intern in C++ domain</li>
+                          <li><span>Cognifyz</span><br>Worked as a intern in Web Developement domain</li>
+                            <li><span>Oasis</span><br>Working on it.</li>
+                        </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                            <li><span>SSC</span><br>Bhavans GVM,Hinganghat</li>
+                            <li><span>HSC</span><br></li>Atulesh Jr. College,Nagpur</li>
+                            <li><span>GRADUATION</span><br>Pursuing from YCCE,Nagpur</li>
+                        </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------SERVICES-------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-light fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus mollitia quam, quo ea illum laboriosam inventore corporis facilis neque laborum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C++</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus mollitia quam, quo ea illum laboriosam inventore corporis facilis neque laborum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Basic Python</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus mollitia quam, quo ea illum laboriosam inventore corporis facilis neque laborum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- '-----------------------------------portfolio---------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png.jpg" >
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius quaerat nisi! Impedit, unde inventore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png.jpg" >
+                    <div class="layer">
+                        <h3>Gym app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius quaerat nisi! Impedit, unde inventore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png.jpg" >
+                    <div class="layer">
+                        <h3>Online Shopping app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius quaerat nisi! Impedit, unde inventore.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+
+    <!-- ---------------------------------------contact------------------------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bidkardevesh19@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>74481089xx</p>
+                    <div class="social-icons">
+                        <a href="http://www.facebook.com/in/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://www.twitter.com/in/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://www.instagram.com/in/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div> 
+                    <a href="project portfolio/RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"></div>
+        <p>Copyright @ Devesh<i class="fa-solid fa-heart"></i></p>
+    </div>
+ 
+
+
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200";
+        }
+    </script>
+</body>
+</html>
